@@ -1,7 +1,11 @@
 #include <stdio.h>
 /**
- * main -Entry
- * return: always 0
+ * main - Entry point
+ *
+ * Description: 'a program to print line returning the numer 0'
+ * @parameter: learning printf
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
