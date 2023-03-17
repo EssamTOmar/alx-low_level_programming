@@ -1,9 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry point
- *
- * Description: 'a program to print line returning the numer 0'
- * @parameter: learning printf
+ * main - Entry Point
  *
  * Return: Always 0 (Success)
  */
