@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point
- *
+ * main - Entry point. the last digit nof a randomly generated number
+ *weather it is greater than 5, less than 6 or equal to 0
  * Return: Always 0 (Success)
  */
 
