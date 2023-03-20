@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
 /**
  * main - Entry point. the last digit nof a randomly generated number
@@ -20,7 +21,7 @@ int main(void)
 	else if (b == 0)
 		printf("Last digit of %d is %d and is 0\n", n, b);
 	else(b < 6)
-		&& (b != 0)
+		&& (b != 0);
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, b);
 	return (0);
 }
