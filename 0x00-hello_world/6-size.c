@@ -1,7 +1,10 @@
 #include <stdio.h>
 /**
- * main - Entry Point
- * return: always 0 (success)
+ * main - Entry point
+ * printf: printing the output of the size of the data type
+ * sizeof: tell us the size of bytes of each data type
+ *
+ * Return: always 0 (success)
  */
 int main(void)
 {
