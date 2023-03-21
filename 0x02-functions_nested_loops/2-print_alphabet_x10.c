@@ -3,19 +3,22 @@
 #include "main.h"
 /**
  * main - Entry point
- * printing alphabets
+ * printing alphabets 10 times
  *
  * Return: always 0 (success)
  */
 int main(void)
 {
+	int a = 0;
 	int ch;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	while (a <= 9)
 	{
-		_putchar(ch);
+		for (ch = 'a'; ch <= 'z'; ch++)
+			_putchar(ch);
+			_putchar('\n');
+		a++;
 	}
-	_putchar('\n');
 	return (0);
 }
 int _putchar(char c)
