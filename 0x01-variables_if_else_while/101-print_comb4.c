@@ -21,8 +21,8 @@ int main(void)
 		}
 		else
 			putchar(b);
-		for (c = '0'; c <= '9'; c++)
-			if (c == a || c == b)
+	for (c = '0'; c <= '9'; c++)
+		if (c == a || c == b)
 			{
 				continue;
 			}
