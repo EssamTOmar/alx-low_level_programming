@@ -11,28 +11,18 @@ int main(void)
 	int b;
 	int c;
 
-	for (a = '0'; a <= '9'; a++)
-	{
-		putchar(a);
-	for (b = '0'; b <= '9'; b++)
-		if (a == b)
+		for (a = '0'; a < '8'; a++)
+		for (b = a + 1; b < '9'; b++)
+		for (c = b + 1; c <= '9'; c++)
 		{
-		{
-			continue;
-		}
-		else
+			putchar(a);
 			putchar(b);
-		}
-	for (c = '0'; c <= '9'; c++)
-		if (c == a || c == b)
-			{
+			putchar(c);
+			if (a == '7')
 				continue;
-			}
-			else
-				putchar(c);
-	}
-	putchar(',');
-	putchar(' ');
-	putchar('\n');
-	return (0);
+			putchar(',');
+			putchar(' ');
+		}
+		putchar('\n');
+		return (0);
 }
