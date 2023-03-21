@@ -15,8 +15,10 @@ int main(void)
 	while (a <= 9)
 	{
 		for (ch = 'a'; ch <= 'z'; ch++)
+		{
 			_putchar(ch);
 			_putchar('\n');
+		}
 		a++;
 	}
 	return (0);
