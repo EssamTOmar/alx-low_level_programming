@@ -12,23 +12,21 @@ int main(void)
 	int c;
 	int d;
 
-	for (a = '0'; a <= '9'; a++)
-	{
-		putchar(a);
-	for (b = '0'; b <= '9'; b++)
-		if (a != b)
+		for (a = '0'; a <= '9'; a++)
+		for (b = '0'; b < '9'; b++)
+		for (c = '0'; c <= '9'; c++)
+		for (d = c + 1; d <= '9'; d++)
 		{
+			putchar(a);
 			putchar(b);
-		}
-	putchar(' ');
-	for (c = '0'; c <= '9'; c++)
-		putchar(c);
-	for (d = '0'; d <= '9'; d++)
-		if (c != d)
+			putchar(' ');
+			putchar(c);
 			putchar(d);
-	}
-	putchar(',');
-	putchar(' ');
-	putchar('\n');
-	return (0);
+			if (b == '8')
+				continue;
+			putchar(',');
+			putchar(' ');
+		}
+		putchar('\n');
+		return (0);
 }
