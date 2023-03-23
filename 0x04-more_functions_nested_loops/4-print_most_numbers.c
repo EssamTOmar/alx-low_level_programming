@@ -13,7 +13,8 @@ void print_numbers(void)
 		{
 			continue;
 		}
-		_putchar(c);
+		else
+			_putchar(c);
 	}
 	_putchar('\n');
 }
