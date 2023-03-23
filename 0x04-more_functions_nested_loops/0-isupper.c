@@ -2,17 +2,16 @@
 #include <stdio.h>
 
 /**
- * main - check the code.
- *
+ * _isupper - checks the letter
+ * @c: letter input.
  * Return: Always 0.
  */
-int main(void)
+int _isupper(int c)
 {
 	char c;
 
-	c = 'C';
-	printf("%c: %d\n", c, _isupper(c));
-	c = 'c';
-	printf("%c: %d\n", c, _isupper(c));
-	return (0);
+	if (c >= 'A' && c <= 'Z')
+		return (1);
+	else
+		return (0);
 }
