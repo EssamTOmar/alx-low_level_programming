@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <unistd.h>
 #include "main.h"
 /**
@@ -19,4 +18,8 @@ int main(void)
 	_putchar('r');
 	_putchar('\n');
 	return (0);
+}
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
 }
