@@ -4,7 +4,7 @@
  *
  * @c: input letter for the function.
  *
- * Return: 1 if lowercase or uppercase or 0 if otherwise
+ * Return: 1 is lowercase or uppercase or 0 is otherwise
  */
 int _isalpha(int c)
 {
