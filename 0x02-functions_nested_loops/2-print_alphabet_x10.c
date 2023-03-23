@@ -2,12 +2,11 @@
 #include <unistd.h>
 #include "main.h"
 /**
- * main - Entry point
- * printing alphabets 10 times
+ * print_alphabet_x10 - printing alphabets 10 times
  *
  * Return: always 0 (success)
  */
-int main(void)
+void print_alphabet_x10(void)
 {
 	int a = 0;
 	int ch;
@@ -21,9 +20,4 @@ int main(void)
 		}
 		a++;
 	}
-	return (0);
-}
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
 }
