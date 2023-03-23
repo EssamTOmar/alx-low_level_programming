@@ -2,12 +2,11 @@
 #include <unistd.h>
 #include "main.h"
 /**
- * main - Entry point
- * printing alphabets
+ * print_alphabet - Printing the alphabet in lowercase
  *
  * Return: always 0 (success)
  */
-int main(void)
+void print_alphabet(void)
 {
 	int ch;
 
