@@ -14,7 +14,7 @@ void print_numbers(void)
 			continue;
 		}
 		else
-			_putchar(c);
+			_putchar(c + '0');
 	}
 	_putchar('\n');
 }
