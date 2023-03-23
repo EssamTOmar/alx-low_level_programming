@@ -3,8 +3,6 @@
 /**
  * print_line - print straight line
  * @n: the number added to the function
- *
- * Return: Always 0.
  */
 void print_line(int n)
 {
