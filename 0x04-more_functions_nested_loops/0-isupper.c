@@ -1,10 +1,8 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
  * _isupper - checks the letter
  * @c: letter input.
- * Return: Always 0.
+ * Return: 1 if uppercase 0 if lowercase.
  */
 int _isupper(int c)
 {
