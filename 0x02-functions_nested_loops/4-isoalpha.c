@@ -5,7 +5,7 @@
  * @c: checks the input of the function
  *
  * Return: return 1 if lower or upper case return 0 if otherwise
- */
+*/
 int _isalpha(int c)
 {
 	if (c >= 97 && c <= 122)
