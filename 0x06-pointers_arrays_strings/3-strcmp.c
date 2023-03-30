@@ -26,11 +26,11 @@ int _strcmp(char *s1, char *s2)
 	}
 	else if (len1 > len2)
 	{
-		result < 0;
+		result = -1;
 	}
 	else
 	{
-		result > 0;
+		result = 1;
 	}
 	return (result);
 }
