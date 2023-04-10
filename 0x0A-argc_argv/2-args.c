@@ -6,7 +6,7 @@
  * @argv: array og pointers
  * Return: always 0 if (success)
  */
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
 	int i;
 
