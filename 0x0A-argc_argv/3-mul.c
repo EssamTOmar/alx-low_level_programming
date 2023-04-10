@@ -8,7 +8,6 @@
  */
 int main(int argc, char *argv[])
 {
-	int i;
 	int mul;
 
 	if (argc < 3 || argc > 3)
