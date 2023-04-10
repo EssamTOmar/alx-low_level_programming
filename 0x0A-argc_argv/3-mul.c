@@ -4,7 +4,7 @@
  * main - Entry Point
  * @argc: the count of arguments
  * @argv: array og pointers
- * Return: always 0 if (success)
+ * Return: 0 if succes 1 if error
  */
 int main(int argc, char *argv[])
 {
