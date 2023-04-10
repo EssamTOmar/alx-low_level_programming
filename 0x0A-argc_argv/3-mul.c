@@ -1,26 +1,27 @@
-#include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
- * main - Entry Point
- * @argc: the count of arguments
- * @argv: array og pointers
- * Return: 0 (success) 1 (error)
+ * main - Main Entry
+ * @argc: input
+ * @argv: input
+ * Return: Always 0 Success
  */
 int main(int argc, char *argv[])
 {
-	int result, num1, num2;
+	int i, res = 1;
 
-	if (argc < 3 || argc > 3)
+	if (argc != 3)
 	{
-		printf("Error\n");
+		printf("%s\n", "Error");
 		return (1);
 	}
-
-	num1 = _atoi(argv[1]);
-	num2 = _atoi(argv[2]);
-	result = num1 * num2;
-
-	printf("%d\n", result);
-
+	else
+	{
+		for (i = 1; i < argc; i++)
+		{
+			res *= atoi(argv[i]);
+		}
+		printf("%d\n", res);
+	}
 	return (0);
 }
