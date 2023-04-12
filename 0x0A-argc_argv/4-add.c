@@ -9,19 +9,21 @@
 int main(int argc, char *argv[])
 {
 	int i;
+	char *c;
 	int sum = 0;
 
 	if (argc < 2)
 	{
 		printf("0\n");
 	}
-	if (_atoi(argv[i]) > 47 && _atoi(argv[i]) < 58)
+	c = argv[argc];
+	if (*c > 47 && *c < 58)
 	{
-		while (i > 0)
+		for (i = 1; i < argc; i++)
 		{
 			sum += _atoi(argv[i]);
-			i++;
 		}
+		printf("%d\n", sum);
 		return (0);
 	}
 	else
