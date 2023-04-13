@@ -35,10 +35,9 @@ int **alloc_grid(int width, int height)
 				return (NULL);
 			}
 		}
-		while (w < width)
+		for (w = 0; w < width; w++)
 		{
 			arr[h][w] = 0;
-			w++;
 		}
 		_putchar('\n');
 	}
