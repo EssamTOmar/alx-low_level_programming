@@ -34,10 +34,13 @@ char *str_concat(char *s1, char *s2)
 	while (i < len1)
 	{
 		snew[i] = s1[i];
+		i++;
 	}
 	while (i < len2)
 	{
 		snew[i] = s2[n];
+		i++;
+		n++;
 	}
 	snew[i] = '\0';
 	return (snew);
