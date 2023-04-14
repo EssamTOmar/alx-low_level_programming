@@ -43,6 +43,7 @@ char *argstostr(int ac, char **av)
 			col++;
 		}
 		str[i] = '\n';
+		i++;
 	}
 	str[i] = '\0';
 	return (str);
