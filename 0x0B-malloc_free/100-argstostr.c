@@ -40,8 +40,11 @@ char *argstostr(int ac, char **av)
 		{
 			str[i] = av[row][col];
 			i++;
+			col++;
 		}
 		str[i] = '\n';
+		i++;
+		col++;
 	}
 	str[i] = '\0';
 	return (str);
