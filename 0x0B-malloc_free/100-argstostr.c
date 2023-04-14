@@ -32,10 +32,10 @@ char *argstostr(int ac, char **av)
 	{
 		return (NULL);
 	}
+	i = 0;
+	col = 0;
 	for (row = 0; row < ac; row++)
 	{
-		i = 0;
-		col = 0;
 		while (av[row][col])
 		{
 			str[i] = av[row][col];
@@ -43,7 +43,6 @@ char *argstostr(int ac, char **av)
 			col++;
 		}
 		str[i] = '\n';
-		col++;
 	}
 	str[i] = '\0';
 	return (str);
