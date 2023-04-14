@@ -34,6 +34,7 @@ char *argstostr(int ac, char **av)
 	}
 	for (row = 0; row < ac; row++)
 	{
+		i =0;
 		col = 0;
 		while (av[row][col])
 		{
