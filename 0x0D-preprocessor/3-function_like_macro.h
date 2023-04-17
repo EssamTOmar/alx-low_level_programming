@@ -1,5 +1,5 @@
-#ifndef FUNCTION_LIKE_MICRO
-#define FUNCTION_LIKE_MICRO
+#ifndef _FUNCTION_LIKE_MACRO_
+#define _FUNCTION_LIKE_MACRO_
 
 #define ABS(x) ((x) < 0 ? ((-(x)) : (x)))
 
